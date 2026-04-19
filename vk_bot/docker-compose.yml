@@ -1,0 +1,14 @@
+services:
+  vk_bot:
+    build: .
+    container_name: tehnokom_vk_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    volumes:
+      - ./data:/app/data
+      - ./assets:/app/assets
+      - ./fonts:/app/fonts

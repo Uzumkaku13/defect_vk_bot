@@ -1,0 +1,6 @@
+vkbottle>=4.6.2
+python-dotenv>=1.0.1
+requests>=2.32.3
+reportlab>=4.2.2
+
+Pillow>=10.4.0
